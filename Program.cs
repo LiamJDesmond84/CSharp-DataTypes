@@ -16,6 +16,14 @@ namespace DataTypes {
             int[] array3;
             array3 = new int[] {1,3,5,7,9};
 
+
+            int[] arrayOfInts = {1, 2, 3, 4, 5};
+            Console.WriteLine(arrayOfInts[0]);    // The first number lives at index 0.
+            Console.WriteLine(arrayOfInts[1]);    // The second number lives at index 1.
+            Console.WriteLine(arrayOfInts[2]);    // The third number lives at index 2.
+            Console.WriteLine(arrayOfInts[3]);    // The fourth number lives at index 3.
+            Console.WriteLine(arrayOfInts[4]);    // The fifth and final number lives at index 4.
+
         }
         
 
