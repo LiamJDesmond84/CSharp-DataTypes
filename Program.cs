@@ -38,6 +38,11 @@ namespace DataTypes {
 
             }
 
+            foreach(string x in myStuff){
+
+                Console.WriteLine($"Numero {x}....  Again");
+            }
+
         }
         
     }
