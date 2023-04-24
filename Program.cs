@@ -32,9 +32,9 @@ namespace DataTypes {
 
             string[] myStuff = new string[] { "Uno", "Dos", "Tres", "Quatro", "Cinco"};
 
-            for(int x = 1; x < myStuff.Length; x++){
+            for(int x = 0; x < myStuff.Length; x++){
 
-                Console.WriteLine(myStuff[x]);
+                Console.WriteLine($"Numero {myStuff[x]}");
 
             }
 
