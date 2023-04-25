@@ -50,10 +50,9 @@ namespace DataTypes {
             //Use the Add function in a similar fashion to push
             someStuff.Add("Cigarettes");
             someStuff.Add("Liquor");
-            someStuff.Add("BMW");
-            someStuff.Add("Moto Guzzi");
-            someStuff.Add("Harley Davidson");
-            someStuff.Add("Suzuki");
+            someStuff.Add("Lighter");
+            someStuff.Add("Badge");
+            someStuff.Add("Laptop");
             //Accessing a generic list value is the same as you would an array
             Console.WriteLine(someStuff[2]); //Prints "BMW"
             Console.WriteLine($"We currently know of {someStuff.Count} motorcycle manufacturers.");
