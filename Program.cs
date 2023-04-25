@@ -55,7 +55,7 @@ namespace DataTypes {
             someStuff.Add("Laptop");
             //Accessing a generic list value is the same as you would an array
             Console.WriteLine(someStuff[2]); //Prints "BMW"
-            Console.WriteLine($"We currently know of {someStuff.Count} motorcycle manufacturers.");
+            Console.WriteLine($"We currently know of {someStuff.Count} items in your backpack.");
 
         }
         
