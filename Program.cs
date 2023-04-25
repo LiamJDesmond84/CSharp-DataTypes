@@ -46,17 +46,17 @@ namespace DataTypes {
             // }
 
             //Initializing an empty list of Motorcycle Manufacturers
-            List<string> bikes = new List<string>();
+            List<string> someStuff = new List<string>();
             //Use the Add function in a similar fashion to push
-            bikes.Add("Kawasaki");
-            bikes.Add("Triumph");
-            bikes.Add("BMW");
-            bikes.Add("Moto Guzzi");
-            bikes.Add("Harley Davidson");
-            bikes.Add("Suzuki");
+            someStuff.Add("Cigarettes");
+            someStuff.Add("Liquor");
+            someStuff.Add("BMW");
+            someStuff.Add("Moto Guzzi");
+            someStuff.Add("Harley Davidson");
+            someStuff.Add("Suzuki");
             //Accessing a generic list value is the same as you would an array
-            Console.WriteLine(bikes[2]); //Prints "BMW"
-            Console.WriteLine($"We currently know of {bikes.Count} motorcycle manufacturers.");
+            Console.WriteLine(someStuff[2]); //Prints "BMW"
+            Console.WriteLine($"We currently know of {someStuff.Count} motorcycle manufacturers.");
 
         }
         
