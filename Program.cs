@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace DataTypes {
 
@@ -30,18 +31,32 @@ namespace DataTypes {
             // Console.WriteLine($"The first number of the arr is now {arr[0]}");
             // // The array has now changed!
 
-            string[] myStuff = new string[] { "Uno", "Dos", "Tres", "Quatro", "Cinco"};
+            // string[] myStuff = new string[] { "Uno", "Dos", "Tres", "Quatro", "Cinco"};
 
-            for(int x = 0; x < myStuff.Length; x++){
+            // for(int x = 0; x < myStuff.Length; x++){
 
-                Console.WriteLine($"Numero {myStuff[x]}");
+            //     Console.WriteLine($"Numero {myStuff[x]}");
 
-            }
+            // }
 
-            foreach(string x in myStuff){
+            // foreach(string x in myStuff){
 
-                Console.WriteLine($"Numero {x}....  Again");
-            }
+            //     //* We no longer need the index, because variable 'x' already represents each indexed value
+            //     Console.WriteLine($"Numero {x}....  Again");
+            // }
+
+            //Initializing an empty list of Motorcycle Manufacturers
+            List<string> bikes = new List<string>();
+            //Use the Add function in a similar fashion to push
+            bikes.Add("Kawasaki");
+            bikes.Add("Triumph");
+            bikes.Add("BMW");
+            bikes.Add("Moto Guzzi");
+            bikes.Add("Harley Davidson");
+            bikes.Add("Suzuki");
+            //Accessing a generic list value is the same as you would an array
+            Console.WriteLine(bikes[2]); //Prints "BMW"
+            Console.WriteLine($"We currently know of {bikes.Count} motorcycle manufacturers.");
 
         }
         
