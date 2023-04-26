@@ -66,12 +66,12 @@ namespace DataTypes {
                 Console.WriteLine("-" + someStuff[idx]);
             }
             //*  Insert a new item between a specific index
-            someStuff.Insert(2, "Yamaha");
+            someStuff.Insert(2, "BMF-Wallet");
             //* Removal from Generic List
             //* Remove is a lot like Javascript array pop, but searches for a specified value
             //* In this case we are removing all manufacturers located in Japan
-            someStuff.Remove("Suzuki");
-            someStuff.Remove("Yamaha");
+            someStuff.Remove("Laptop");
+            someStuff.Remove("BMF-Wallet");
             someStuff.RemoveAt(0); //RemoveAt has no return value however
             //* The updated list can then be iterated through using a foreach loop
             Console.WriteLine("List of Non-Japanese Manufacturers:");
