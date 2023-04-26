@@ -75,8 +75,7 @@ namespace DataTypes {
             someStuff.RemoveAt(0); //RemoveAt has no return value however
             //* The updated list can then be iterated through using a foreach loop
             Console.WriteLine("List of Non-Japanese Manufacturers:");
-            foreach (string manu in someStuff)
-            {
+            foreach (string manu in someStuff) {
                 Console.WriteLine("-" + manu);
             }
 
