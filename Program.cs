@@ -45,17 +45,42 @@ namespace DataTypes {
             //     Console.WriteLine($"Numero {x}....  Again");
             // }
 
-            //Initializing an empty list of Motorcycle Manufacturers
-            List<string> someStuff = new List<string>();
-            //Use the Add function in a similar fashion to push
-            someStuff.Add("Cigarettes");
-            someStuff.Add("Liquor");
-            someStuff.Add("Lighter");
-            someStuff.Add("Badge");
-            someStuff.Add("Laptop");
-            //Accessing a generic list value is the same as you would an array
-            Console.WriteLine(someStuff[2]); //Prints "BMW"
-            Console.WriteLine($"We currently know of {someStuff.Count} items in your backpack.");
+            // //* Initializing an empty list of Stuff
+            // List<string> someStuff = new List<string>();
+
+            // //* Use the Add function in a similar fashion to push
+            // someStuff.Add("Cigarettes");
+            // someStuff.Add("Liquor");
+            // someStuff.Add("Lighter");
+            // someStuff.Add("Badge");
+            // someStuff.Add("Laptop");
+            // //* Accessing a generic list value is the same as you would an array
+            // Console.WriteLine(someStuff[2]); //Prints "BMW"
+            // Console.WriteLine($"We currently know of {someStuff.Count} items in your backpack.");
+
+            //* Using our array of motorcycle manufacturers from before
+            //* we can easily loop through the list of them with a C-style for loop
+            //* this time, however, Count is the attribute for a number of items.
+            Console.WriteLine("The current manufacturers we have seen are:");
+            for (var idx = 0; idx < bikes.Count; idx++)
+            {
+                Console.WriteLine("-" + bikes[idx]);
+            }
+            //*  Insert a new item between a specific index
+            bikes.Insert(2, "Yamaha");
+            //* Removal from Generic List
+            //* Remove is a lot like Javascript array pop, but searches for a specified value
+            //* In this case we are removing all manufacturers located in Japan
+            bikes.Remove("Suzuki");
+            bikes.Remove("Yamaha");
+            bikes.RemoveAt(0); //RemoveAt has no return value however
+            //* The updated list can then be iterated through using a foreach loop
+            Console.WriteLine("List of Non-Japanese Manufacturers:");
+            foreach (string manu in bikes)
+            {
+                Console.WriteLine("-" + manu);
+            }
+
 
         }
         
