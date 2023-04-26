@@ -63,7 +63,7 @@ namespace DataTypes {
             //* this time, however, Count is the attribute for a number of items.
             Console.WriteLine("The current manufacturers we have seen are:");
             for (var idx = 0; idx < someStuff.Count; idx++) {
-                Console.WriteLine("-" + bikes[idx]);
+                Console.WriteLine("-" + someStuff[idx]);
             }
             //*  Insert a new item between a specific index
             someStuff.Insert(2, "Yamaha");
