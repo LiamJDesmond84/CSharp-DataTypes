@@ -80,7 +80,7 @@ namespace DataTypes {
             // }
 
             Dictionary<string,string> profile = new Dictionary<string,string>();
-//Almost all the methods that exists with Lists are the same with Dictionaries
+            //* Almost all the methods that exists with Lists are the same with Dictionaries
             profile.Add("Name", "Sucka");
             profile.Add("Language", "C#");
             profile.Add("Location", "San Diego");
@@ -89,7 +89,12 @@ namespace DataTypes {
             // Console.WriteLine("From - " + profile["Location"]);
             // Console.WriteLine("Favorite Language - " + profile["Language"]);
 
-            foreach (KeyValuePair<string,string> entry in profile) {
+            // foreach (KeyValuePair<string,string> x in profile) {
+            //     Console.WriteLine(x.Key + " - " + x.Value);
+            // }
+
+            //* The var keyword takes the place of a type in type-inference
+            foreach (var entry in profile) {
                 Console.WriteLine(entry.Key + " - " + entry.Value);
             }
 
