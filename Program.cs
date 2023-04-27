@@ -79,6 +79,16 @@ namespace DataTypes {
             //     Console.WriteLine("-" + manu);
             // }
 
+            Dictionary<string,string> profile = new Dictionary<string,string>();
+//Almost all the methods that exists with Lists are the same with Dictionaries
+            profile.Add("Name", "Sucka");
+            profile.Add("Language", "C#");
+            profile.Add("Location", "San Diego");
+            Console.WriteLine("Instructor Profile");
+            Console.WriteLine("Name - " + profile["Name"]);
+            Console.WriteLine("From - " + profile["Location"]);
+            Console.WriteLine("Favorite Language - " + profile["Language"]);
+
 
         }
         
