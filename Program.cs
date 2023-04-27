@@ -46,38 +46,38 @@ namespace DataTypes {
             // }
 
             // //* Initializing an empty list of Stuff
-            List<string> someStuff = new List<string>();
+            // List<string> someStuff = new List<string>();
 
-            //* Use the Add function in a similar fashion to push
-            someStuff.Add("Cigarettes");
-            someStuff.Add("Liquor");
-            someStuff.Add("Lighter");
-            someStuff.Add("Badge");
-            someStuff.Add("Laptop");
-            // //* Accessing a generic list value is the same as you would an array
-            // Console.WriteLine(someStuff[2]); //Prints "BMW"
-            // Console.WriteLine($"We currently know of {someStuff.Count} items in your backpack.");
+            // //* Use the Add function in a similar fashion to push
+            // someStuff.Add("Cigarettes");
+            // someStuff.Add("Liquor");
+            // someStuff.Add("Lighter");
+            // someStuff.Add("Badge");
+            // someStuff.Add("Laptop");
+            // // //* Accessing a generic list value is the same as you would an array
+            // // Console.WriteLine(someStuff[2]); //Prints "BMW"
+            // // Console.WriteLine($"We currently know of {someStuff.Count} items in your backpack.");
 
-            //* Using our array of motorcycle manufacturers from before
-            //* we can easily loop through the list of them with a C-style for loop
-            //* this time, however, Count is the attribute for a number of items.
-            Console.WriteLine("The current manufacturers we have seen are:");
-            for (var idx = 0; idx < someStuff.Count; idx++) {
-                Console.WriteLine("-" + someStuff[idx]);
-            }
-            //*  Insert a new item between a specific index
-            someStuff.Insert(2, "BMF-Wallet");
-            //* Removal from Generic List
-            //* Remove is a lot like Javascript array pop, but searches for a specified value
-            //* In this case we are removing all manufacturers located in Japan
-            someStuff.Remove("Laptop");
-            someStuff.Remove("BMF-Wallet");
-            someStuff.RemoveAt(0); //RemoveAt has no return value however
-            //* The updated list can then be iterated through using a foreach loop
-            Console.WriteLine("List of Non-Japanese Manufacturers:");
-            foreach (string manu in someStuff) {
-                Console.WriteLine("-" + manu);
-            }
+            // //* Using our array of motorcycle manufacturers from before
+            // //* we can easily loop through the list of them with a C-style for loop
+            // //* this time, however, Count is the attribute for a number of items.
+            // Console.WriteLine("The current manufacturers we have seen are:");
+            // for (var idx = 0; idx < someStuff.Count; idx++) {
+            //     Console.WriteLine("-" + someStuff[idx]);
+            // }
+            // //*  Insert a new item between a specific index
+            // someStuff.Insert(2, "BMF-Wallet");
+            // //* Removal from Generic List
+            // //* Remove is a lot like Javascript array pop, but searches for a specified value
+            // //* In this case we are removing all manufacturers located in Japan
+            // someStuff.Remove("Laptop");
+            // someStuff.Remove("BMF-Wallet");
+            // someStuff.RemoveAt(0); //RemoveAt has no return value however
+            // //* The updated list can then be iterated through using a foreach loop
+            // Console.WriteLine("List of Non-Japanese Manufacturers:");
+            // foreach (string manu in someStuff) {
+            //     Console.WriteLine("-" + manu);
+            // }
 
 
         }
