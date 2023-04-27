@@ -89,6 +89,10 @@ namespace DataTypes {
             Console.WriteLine("From - " + profile["Location"]);
             Console.WriteLine("Favorite Language - " + profile["Language"]);
 
+            foreach (KeyValuePair<string,string> entry in profile) {
+                Console.WriteLine(entry.Key + " - " + entry.Value);
+            }
+
 
         }
         
