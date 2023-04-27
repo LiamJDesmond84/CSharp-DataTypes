@@ -84,10 +84,10 @@ namespace DataTypes {
             profile.Add("Name", "Sucka");
             profile.Add("Language", "C#");
             profile.Add("Location", "San Diego");
-            Console.WriteLine("Instructor Profile");
-            Console.WriteLine("Name - " + profile["Name"]);
-            Console.WriteLine("From - " + profile["Location"]);
-            Console.WriteLine("Favorite Language - " + profile["Language"]);
+            // Console.WriteLine("Instructor Profile");
+            // Console.WriteLine("Name - " + profile["Name"]);
+            // Console.WriteLine("From - " + profile["Location"]);
+            // Console.WriteLine("Favorite Language - " + profile["Language"]);
 
             foreach (KeyValuePair<string,string> entry in profile) {
                 Console.WriteLine(entry.Key + " - " + entry.Value);
