@@ -9,3 +9,14 @@ C:\Users\liamj\.vscode\C#\DataTypes\obj\Debug\netcoreapp3.1\DataTypes.AssemblyIn
 C:\Users\liamj\.vscode\C#\DataTypes\obj\Debug\netcoreapp3.1\DataTypes.AssemblyInfo.cs
 C:\Users\liamj\.vscode\C#\DataTypes\obj\Debug\netcoreapp3.1\DataTypes.dll
 C:\Users\liamj\.vscode\C#\DataTypes\obj\Debug\netcoreapp3.1\DataTypes.pdb
+C:\Users\liamj\Documents\GitRepos\CSharp-DataTypes\bin\Debug\netcoreapp3.1\DataTypes.exe
+C:\Users\liamj\Documents\GitRepos\CSharp-DataTypes\bin\Debug\netcoreapp3.1\DataTypes.deps.json
+C:\Users\liamj\Documents\GitRepos\CSharp-DataTypes\bin\Debug\netcoreapp3.1\DataTypes.runtimeconfig.json
+C:\Users\liamj\Documents\GitRepos\CSharp-DataTypes\bin\Debug\netcoreapp3.1\DataTypes.runtimeconfig.dev.json
+C:\Users\liamj\Documents\GitRepos\CSharp-DataTypes\bin\Debug\netcoreapp3.1\DataTypes.dll
+C:\Users\liamj\Documents\GitRepos\CSharp-DataTypes\bin\Debug\netcoreapp3.1\DataTypes.pdb
+C:\Users\liamj\Documents\GitRepos\CSharp-DataTypes\obj\Debug\netcoreapp3.1\DataTypes.csprojAssemblyReference.cache
+C:\Users\liamj\Documents\GitRepos\CSharp-DataTypes\obj\Debug\netcoreapp3.1\DataTypes.AssemblyInfoInputs.cache
+C:\Users\liamj\Documents\GitRepos\CSharp-DataTypes\obj\Debug\netcoreapp3.1\DataTypes.AssemblyInfo.cs
+C:\Users\liamj\Documents\GitRepos\CSharp-DataTypes\obj\Debug\netcoreapp3.1\DataTypes.dll
+C:\Users\liamj\Documents\GitRepos\CSharp-DataTypes\obj\Debug\netcoreapp3.1\DataTypes.pdb
