@@ -151,32 +151,35 @@ namespace DataTypes {
             //* Multidimensional array declaration
 
             //* This example contains 3 arrays -- each of these is length 2 -- all initialized to zeroes.
-            int [,] array2D = new int[3,2];
-            //* This is equivalent to:
-            //*  int [,] array2D = new int[3,2]  {  { 0,0 }, { 0,0 }, { 0,0 } }; 
+            // int [,] array2D = new int[3,2];
+            // //* This is equivalent to:
+            // //*  int [,] array2D = new int[3,2]  {  { 0,0 }, { 0,0 }, { 0,0 } }; 
             
-            //*/ This example has 2 large rows that each contain 3 arrays -- and each of those arrays is length 4.
-            //todo int[,,] array3D = new int[2,3,4] { {  { 45,1,16,17 }, { 4,47,21,68 }, { 21,28,32,76 }  },{  { 11,0,85,42 }, { 9,10,14,96 }, { 66,99,33,12 }  }};
-            int[,,] array3D = new int[2,3,4] 
-                {
-                    {  { 45,1,16,17 }, { 4,47,21,68 }, { 21,28,32,76 }  },
-                    {  { 11,0,85,42 }, { 9,10,14,96 }, { 66,99,33,12 }  }
-                };
-            //* Directly accessing a multidimensional array
-            Console.WriteLine(array2D[0,1]);   // prints 0
-            Console.WriteLine(array3D[1,0,3]); // prints 42
+            // //*/ This example has 2 large rows that each contain 3 arrays -- and each of those arrays is length 4.
+            // //todo int[,,] array3D = new int[2,3,4] { {  { 45,1,16,17 }, { 4,47,21,68 }, { 21,28,32,76 }  },{  { 11,0,85,42 }, { 9,10,14,96 }, { 66,99,33,12 }  }};
+            // int[,,] array3D = new int[2,3,4] 
+            //     {
+            //         {  { 45,1,16,17 }, { 4,47,21,68 }, { 21,28,32,76 }  },
+            //         {  { 11,0,85,42 }, { 9,10,14,96 }, { 66,99,33,12 }  }
+            //     };
+            // //* Directly accessing a multidimensional array
+            // Console.WriteLine(array2D[0,1]);   // prints 0
+            // Console.WriteLine(array3D[1,0,3]); // prints 42
 
             //# Jagged arrays
 
             //* Jagged array declaration
             int[][] jaggedArray = new int[3][];
+            //* Instantiating each inner array with a different set length
             jaggedArray[0] = new int[5];
             jaggedArray[1] = new int[4]; 
             jaggedArray[2] = new int[2];
+
             int[][] jaggedArray2 = new int[][] {
                 new int[] {1,3,5,7,9},
                 new int[] {0,2},
-                new int[] {11,22,33,44}
+                new int[] {11,22,33,44},
+                new int[] {14,22,57,69,62,99}
             };
 
             //* Short-hand form
@@ -195,12 +198,18 @@ namespace DataTypes {
             };
 
             //* Working through each array in a jagged array
-            foreach(int[] innerArr in jaggedArray){
-                Console.WriteLine("Inner array length is {0}", innerArr.Length);
-            }
-            //* Accessing a jagged array
-            Console.WriteLine(jaggedArray2[0][1]); // 3
-            Console.WriteLine(jaggedArray3[2][3]); // 44
+            // foreach(int[] innerArr in jaggedArray){
+            //     Console.WriteLine("Inner array length is {0}", innerArr.Length);
+            // }
+            // //* Accessing a jagged array
+            // Console.WriteLine(jaggedArray2[0][1]); // 3
+            // Console.WriteLine(jaggedArray3[2][3]); // 44
+
+            //# Type Casting
+
+            //* Implicit Casting
+            int IntegerValue = 65;
+            double DoubleValue = IntegerValue;
         }
         
     }
