@@ -210,6 +210,14 @@ namespace DataTypes {
             //* Implicit Casting
             int IntegerValue = 65;
             double DoubleValue = IntegerValue;
+            Console.WriteLine(DoubleValue); // DoubleValue == 65
+
+            //* Explicit Casting
+            double DoubleValue2 = 3.14159265358;
+            int IntegerValue2 = (int)DoubleValue2;
+            Console.WriteLine(IntegerValue2); // IntegerValue2 == 3
+
+
         }
         
     }
