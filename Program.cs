@@ -101,11 +101,29 @@ namespace DataTypes {
             //     Console.WriteLine(entry.Key + " - " + entry.Value);
             // }
 
-            string test = "TEST";
+            // //# Debugger test
+            // string test = "TEST";
 
-            Console.WriteLine(test);
+            // Console.WriteLine(test);
 
-            Console.WriteLine(args);
+            // Console.WriteLine(args);
+
+
+            int[] nums = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+            string[] names = {"Tim", "Martin", "Nikki", "Sara"};
+            bool[] bools = new bool[10];
+            bools[0] = true;
+            bools[1] = true;
+            bools[2] = false;
+            bools[3] = true;
+            bools[4] = false;
+            bools[5] = false;
+            bools[6] = true;
+            bools[7] = true;
+            bools[8] = false;
+            bools[9] = true;
+
+
         }
         
     }
