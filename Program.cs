@@ -96,12 +96,16 @@ namespace DataTypes {
             //     Console.WriteLine(x.Key + " - " + x.Value);
             // }
 
-            //* The var keyword takes the place of a type in type-inference
-            foreach (var entry in profile) {
-                Console.WriteLine(entry.Key + " - " + entry.Value);
-            }
+            // //* The var keyword takes the place of a type in type-inference
+            // foreach (var entry in profile) {
+            //     Console.WriteLine(entry.Key + " - " + entry.Value);
+            // }
 
+            string test = "TEST";
 
+            Console.WriteLine(test);
+
+            Console.WriteLine(args);
         }
         
     }
