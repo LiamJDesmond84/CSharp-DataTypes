@@ -7,7 +7,7 @@ namespace DataTypes {
 
         static void Main(string[] args) {
 
-            //? arrays
+            //* arrays
             // //todo Declaring an array of length 5, initialized by default to all zeroes
             // int[] numArray = new int[5];
             // //* Declaring an array with pre-populated values
