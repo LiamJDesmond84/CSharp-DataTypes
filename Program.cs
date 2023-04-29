@@ -210,13 +210,31 @@ namespace DataTypes {
             //* Implicit Casting
             int IntegerValue = 65;
             double DoubleValue = IntegerValue;
-            Console.WriteLine(DoubleValue); // DoubleValue == 65
+            // Console.WriteLine(DoubleValue); // DoubleValue == 65
 
             //* Explicit Casting
             double DoubleValue2 = 3.14159265358;
             int IntegerValue2 = (int)DoubleValue2;
-            Console.WriteLine(IntegerValue2); // IntegerValue2 == 3
+            // Console.WriteLine(IntegerValue2); // IntegerValue2 == 3
 
+
+            double floatNum = 7.76; 
+            //! This will cause a compiler type-mismatch error!!
+            //! int num = floatNum;
+ 
+            //* Floating point to integer conversion truncates all numbers after the decimal
+            int num = (int)floatNum;
+            Console.WriteLine(num); // num == 7
+
+            //# Converting an integer to a string
+            int num2 = 7;
+            string numAsString = num2.ToString();
+            Console.WriteLine(numAsString); // numAsString == "7"
+
+            //# Converting an string to an integer
+            string stringNum = "8";
+            int num3 = int.Parse(stringNum);
+            Console.WriteLine(num3); // num3 == 8
 
         }
         
