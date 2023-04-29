@@ -123,6 +123,23 @@ namespace DataTypes {
             bools[8] = false;
             bools[9] = true;
 
+            List<string> flavors = new List<string>();
+            flavors.Add("Chocalate");
+            flavors.Add("Vanilla");
+            flavors.Add("Strawberry");
+            flavors.Add("Dunno");
+            flavors.Add("Don't Care");
+
+            foreach(string x in flavors){
+                Console.WriteLine(x);
+
+            }
+
+                        foreach(KeyValuePair<string, string> x in flavors){
+                Console.Write
+
+            }
+
 
         }
         
