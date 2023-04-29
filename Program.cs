@@ -7,7 +7,7 @@ namespace DataTypes {
 
         static void Main(string[] args) {
 
-            //* arrays
+            //# arrays
             // //todo Declaring an array of length 5, initialized by default to all zeroes
             // int[] numArray = new int[5];
             // //* Declaring an array with pre-populated values
@@ -45,7 +45,7 @@ namespace DataTypes {
             //     //* We no longer need the index, because variable 'x' already represents each indexed value
             //     Console.WriteLine($"Numero {x}....  Again");
             // }
-            //? Lists
+            //# Lists
             // //* Initializing an empty list of Stuff
             // List<string> someStuff = new List<string>();
 
@@ -81,7 +81,7 @@ namespace DataTypes {
             // }
 
 
-            //? Dictionaries
+            //# Dictionaries
             Dictionary<string,string> profile = new Dictionary<string,string>();
             //* Almost all the methods that exists with Lists are the same with Dictionaries
             profile.Add("Name", "Sucka");
