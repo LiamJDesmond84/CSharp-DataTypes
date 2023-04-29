@@ -130,13 +130,19 @@ namespace DataTypes {
             flavors.Add("Dunno");
             flavors.Add("Don't Care");
 
-            foreach(string x in flavors){
-                Console.WriteLine(x);
+            Console.WriteLine(flavors.Count);
+            Console.WriteLine("Third Flavor: " + flavors[2]);
+            flavors.Remove("Strawberry");
+            Console.WriteLine(flavors.Count);
 
-            }
 
-                        foreach(KeyValuePair<string, string> x in flavors){
-                Console.Write
+            Dictionary<string, string> dict = new Dictionary<string, string>();
+            dict.Add(names[0], flavors[0]);
+            dict.Add(names[1], flavors[1]);
+            dict.Add(names[2], flavors[2]);
+
+            foreach(KeyValuePair<string, string> x in dict){
+                Console.WriteLine("User:" + x.Key + " - Favorite Flavor: " + x.Value);
 
             }
 
