@@ -108,43 +108,60 @@ namespace DataTypes {
 
             // Console.WriteLine(args);
 
+            //# Final
+            // int[] nums = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+            // string[] names = {"Tim", "Martin", "Nikki", "Sara"};
+            // bool[] bools = new bool[10];
+            // bools[0] = true;
+            // bools[1] = true;
+            // bools[2] = false;
+            // bools[3] = true;
+            // bools[4] = false;
+            // bools[5] = false;
+            // bools[6] = true;
+            // bools[7] = true;
+            // bools[8] = false;
+            // bools[9] = true;
 
-            int[] nums = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-            string[] names = {"Tim", "Martin", "Nikki", "Sara"};
-            bool[] bools = new bool[10];
-            bools[0] = true;
-            bools[1] = true;
-            bools[2] = false;
-            bools[3] = true;
-            bools[4] = false;
-            bools[5] = false;
-            bools[6] = true;
-            bools[7] = true;
-            bools[8] = false;
-            bools[9] = true;
+            // List<string> flavors = new List<string>();
+            // flavors.Add("Chocalate");
+            // flavors.Add("Vanilla");
+            // flavors.Add("Strawberry");
+            // flavors.Add("Dunno");
+            // flavors.Add("Don't Care");
 
-            List<string> flavors = new List<string>();
-            flavors.Add("Chocalate");
-            flavors.Add("Vanilla");
-            flavors.Add("Strawberry");
-            flavors.Add("Dunno");
-            flavors.Add("Don't Care");
-
-            Console.WriteLine(flavors.Count);
-            Console.WriteLine("Third Flavor: " + flavors[2]);
-            flavors.Remove("Strawberry");
-            Console.WriteLine(flavors.Count);
+            // Console.WriteLine(flavors.Count);
+            // Console.WriteLine("Third Flavor: " + flavors[2]);
+            // flavors.Remove("Strawberry");
+            // Console.WriteLine(flavors.Count);
 
 
-            Dictionary<string, string> dict = new Dictionary<string, string>();
-            dict.Add(names[0], flavors[0]);
-            dict.Add(names[1], flavors[1]);
-            dict.Add(names[2], flavors[2]);
+            // Dictionary<string, string> dict = new Dictionary<string, string>();
+            // dict.Add(names[0], flavors[0]);
+            // dict.Add(names[1], flavors[1]);
+            // dict.Add(names[2], flavors[2]);
 
-            foreach(KeyValuePair<string, string> x in dict){
-                Console.WriteLine("User:" + x.Key + " - Favorite Flavor: " + x.Value);
+            // foreach(KeyValuePair<string, string> x in dict){
+            //     Console.WriteLine("User:" + x.Key + " - Favorite Flavor: " + x.Value);
 
-            }
+            // }
+
+
+            //# Multidimensional arrays
+            //* Multidimensional array declaration
+            //* This example contains 3 arrays -- each of these is length 2 -- all initialized to zeroes.
+            int [,] array2D = new int[3,2];
+            //* This is equivalent to:
+            //*  int [,] array2D = new int[3,2]  {  { 0,0 }, { 0,0 }, { 0,0 } }; 
+            //*/ This example has 2 large rows that each contain 3 arrays -- and each of those arrays is length 4.
+            int[,,] array3D = new int[2,3,4] 
+                {
+                    {  { 45,1,16,17 }, { 4,47,21,68 }, { 21,28,32,76 }  },
+                    {  { 11,0,85,42 }, { 9,10,14,96 }, { 66,99,33,12 }  }
+                };
+            //* Directly accessing a multidimensional array
+            Console.WriteLine(array2D[0,1]);   // prints 0
+            Console.WriteLine(array3D[1,0,3]); // prints 42
 
 
         }
