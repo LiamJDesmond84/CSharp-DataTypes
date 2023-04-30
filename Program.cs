@@ -270,9 +270,13 @@ namespace DataTypes {
             obj.Add(true);
             obj.Add("chair");
 
-            foreach(object x in obj){
-                Console.WriteLine(x);
-            }
+            // foreach(object x in obj){
+            //     Console.WriteLine(x);
+            // }
+
+            // for(int x = 0; x < obj.Count; x++){
+            //     Console.WriteLine(obj[x]);
+            // }
 
         }
         
