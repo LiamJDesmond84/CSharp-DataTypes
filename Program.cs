@@ -270,7 +270,7 @@ namespace DataTypes {
             obj.Add(true);
             obj.Add("chair");
 
-            foreach(List<object> x in obj){
+            foreach(object x in obj){
                 Console.WriteLine(x);
             }
 
