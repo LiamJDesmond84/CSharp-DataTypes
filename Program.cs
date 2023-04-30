@@ -247,10 +247,10 @@ namespace DataTypes {
             //* Make sure it is the type you need before proceeding
             if (BoxedData is int) {
                 //* This shouldn't run
-                Console.WriteLine("I guess we have an integer value in this box?");
+                // Console.WriteLine("I guess we have an integer value in this box?");
             }
             if (BoxedData is string) {
-                Console.WriteLine("It is totally a string in the box!");
+                // Console.WriteLine("It is totally a string in the box!");
             }
 
             //? Safe Explicit Casting
@@ -262,7 +262,17 @@ namespace DataTypes {
             //! object ActuallyInt = 256;
             //! int ExplicitInt = ActuallyInt as int;
 
+            List<object> obj = new List<object>();
 
+            obj.Add(7);
+            obj.Add(28);
+            obj.Add(-1);
+            obj.Add(true);
+            obj.Add("chair");
+
+            foreach(List<object> x in obj){
+                Console.WriteLine(x);
+            }
 
         }
         
