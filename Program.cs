@@ -234,20 +234,35 @@ namespace DataTypes {
             //# Converting an string to an integer
             string stringNum = "8";
             int num3 = int.Parse(stringNum);
-            // Console.WriteLine(num3); // num3 == 8
+            //* Console.WriteLine(num3); // num3 == 8
 
 
             //# Boxing/Unboxing
-            //Box some string data into a variable
+
+            //? Safely Unboxing
+
+            //* Box some string data into a variable
             object BoxedData = "This is clearly a string";
-            //Make sure it is the type you need before proceeding
+
+            //* Make sure it is the type you need before proceeding
             if (BoxedData is int) {
-                //This shouldn't run
+                //* This shouldn't run
                 Console.WriteLine("I guess we have an integer value in this box?");
             }
             if (BoxedData is string) {
                 Console.WriteLine("It is totally a string in the box!");
             }
+
+            //? Safe Explicit Casting
+
+            object ActuallyString = "a string";
+            string ExplicitString = ActuallyString as string;
+            
+            //! THIS WON'T WORK!!
+            //! object ActuallyInt = 256;
+            //! int ExplicitInt = ActuallyInt as int;
+
+
 
         }
         

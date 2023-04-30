@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\liamj\\Documents\\GitRepos\\CSharp-DataTypes\\DataTypes.csproj": {}
+    "C:\\Users\\liamj\\.vscode\\C#\\DataTypes\\DataTypes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\liamj\\Documents\\GitRepos\\CSharp-DataTypes\\DataTypes.csproj": {
+    "C:\\Users\\liamj\\.vscode\\C#\\DataTypes\\DataTypes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\liamj\\Documents\\GitRepos\\CSharp-DataTypes\\DataTypes.csproj",
+        "projectUniqueName": "C:\\Users\\liamj\\.vscode\\C#\\DataTypes\\DataTypes.csproj",
         "projectName": "DataTypes",
-        "projectPath": "C:\\Users\\liamj\\Documents\\GitRepos\\CSharp-DataTypes\\DataTypes.csproj",
+        "projectPath": "C:\\Users\\liamj\\.vscode\\C#\\DataTypes\\DataTypes.csproj",
         "packagesPath": "C:\\Users\\liamj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\liamj\\Documents\\GitRepos\\CSharp-DataTypes\\obj\\",
+        "outputPath": "C:\\Users\\liamj\\.vscode\\C#\\DataTypes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\liamj\\AppData\\Roaming\\NuGet\\NuGet.Config"
