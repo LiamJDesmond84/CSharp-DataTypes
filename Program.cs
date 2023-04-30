@@ -5,7 +5,18 @@ namespace DataTypes {
 
     class Program {
 
+        public static void SayHello(string firstName = "Fool") {
+            Console.WriteLine($"Hello, {firstName}, how are you doing today?");
+        }
+
+
+
+
         static void Main(string[] args) {
+            //* We can call it without providing any arguments and the default value will be used...
+            // SayHello("Sucka");
+            //* ...or we can call it with an argument and that argument's value will be use
+            SayHello();
 
             //# arrays
             // //todo Declaring an array of length 5, initialized by default to all zeroes
@@ -276,7 +287,7 @@ namespace DataTypes {
             //     Console.WriteLine(obj[x]);
             // }
 
-            int sum = 0;
+            // int sum = 0;
 
             foreach(var x in obj){
 
@@ -291,9 +302,7 @@ namespace DataTypes {
 
 
         }
-            public static void SayHello() {
-                Console.WriteLine("Hello how are you doing today?");
-            }
+
         
     }
 }
