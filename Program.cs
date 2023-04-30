@@ -284,9 +284,8 @@ namespace DataTypes {
                     sum += (int)x;
                     
                 }
-                
+                Console.WriteLine("Sum: " + sum);
             }
-            Console.WriteLine("Sum: " + sum);
 
         }
         
