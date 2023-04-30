@@ -224,17 +224,30 @@ namespace DataTypes {
  
             //* Floating point to integer conversion truncates all numbers after the decimal
             int num = (int)floatNum;
-            Console.WriteLine(num); // num == 7
+            // Console.WriteLine(num); // num == 7
 
             //# Converting an integer to a string
             int num2 = 7;
             string numAsString = num2.ToString();
-            Console.WriteLine(numAsString); // numAsString == "7"
+            // Console.WriteLine(numAsString); // numAsString == "7"
 
             //# Converting an string to an integer
             string stringNum = "8";
             int num3 = int.Parse(stringNum);
-            Console.WriteLine(num3); // num3 == 8
+            // Console.WriteLine(num3); // num3 == 8
+
+
+            //# Boxing/Unboxing
+            //Box some string data into a variable
+            object BoxedData = "This is clearly a string";
+            //Make sure it is the type you need before proceeding
+            if (BoxedData is int) {
+                //This shouldn't run
+                Console.WriteLine("I guess we have an integer value in this box?");
+            }
+            if (BoxedData is string) {
+                Console.WriteLine("It is totally a string in the box!");
+            }
 
         }
         
