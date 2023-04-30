@@ -270,13 +270,23 @@ namespace DataTypes {
             obj.Add(true);
             obj.Add("chair");
 
-            // foreach(object x in obj){
-            //     Console.WriteLine(x);
-            // }
 
             // for(int x = 0; x < obj.Count; x++){
+
             //     Console.WriteLine(obj[x]);
             // }
+
+            int sum = 0;
+
+            foreach(var x in obj){
+
+                if(x is int){
+                    sum += (int)x;
+                    
+                }
+                
+            }
+            Console.WriteLine("Sum: " + sum);
 
         }
         
