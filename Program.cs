@@ -285,11 +285,15 @@ namespace DataTypes {
                     
             //     }
             //     Console.WriteLine("Sum: " + sum);
-            // }
+            }
 
             //# Functions
 
+
         }
+            public static void SayHello() {
+                Console.WriteLine("Hello how are you doing today?");
+            }
         
     }
 }
