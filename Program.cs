@@ -280,12 +280,14 @@ namespace DataTypes {
 
             foreach(var x in obj){
 
-                if(x is int){
-                    sum += (int)x;
+            //     if(x is int){
+            //         sum += (int)x;
                     
-                }
-                Console.WriteLine("Sum: " + sum);
-            }
+            //     }
+            //     Console.WriteLine("Sum: " + sum);
+            // }
+
+            //# Functions
 
         }
         
