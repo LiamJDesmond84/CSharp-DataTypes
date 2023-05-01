@@ -9,14 +9,21 @@ namespace DataTypes {
             Console.WriteLine($"Hello, {firstName}, how are you doing today?");
         }
 
-
+        public static string SayHello2(string firstName = "Fool") {
+            return $"Hello, {firstName}, how are you doing today?";
+        }
 
 
         static void Main(string[] args) {
             //* We can call it without providing any arguments and the default value will be used...
             // SayHello("Sucka");
             //* ...or we can call it with an argument and that argument's value will be use
-            SayHello();
+            // SayHello();
+
+            string output;
+
+            output = SayHello2("Sucka");
+            Console.WriteLine(output);
 
             //# arrays
             // //todo Declaring an array of length 5, initialized by default to all zeroes
